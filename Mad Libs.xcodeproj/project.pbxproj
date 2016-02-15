@@ -14,6 +14,8 @@
 		AC68AF501C7204D9002C474B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC68AF4E1C7204D9002C474B /* LaunchScreen.storyboard */; };
 		AC68AF5B1C7204D9002C474B /* Mad_LibsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC68AF5A1C7204D9002C474B /* Mad_LibsTests.swift */; };
 		AC68AF661C7204D9002C474B /* Mad_LibsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC68AF651C7204D9002C474B /* Mad_LibsUITests.swift */; };
+		AC68AF781C7206D0002C474B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC68AF771C7206D0002C474B /* SecondViewController.swift */; };
+		AC68AF7A1C7206DF002C474B /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC68AF791C7206DF002C474B /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		AC68AF611C7204D9002C474B /* Mad LibsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mad LibsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC68AF651C7204D9002C474B /* Mad_LibsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mad_LibsUITests.swift; sourceTree = "<group>"; };
 		AC68AF671C7204D9002C474B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC68AF771C7206D0002C474B /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		AC68AF791C7206DF002C474B /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				AC68AF451C7204D9002C474B /* AppDelegate.swift */,
 				AC68AF471C7204D9002C474B /* ViewController.swift */,
+				AC68AF771C7206D0002C474B /* SecondViewController.swift */,
+				AC68AF791C7206DF002C474B /* ThirdViewController.swift */,
 				AC68AF491C7204D9002C474B /* Main.storyboard */,
 				AC68AF4C1C7204D9002C474B /* Assets.xcassets */,
 				AC68AF4E1C7204D9002C474B /* LaunchScreen.storyboard */,
@@ -256,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC68AF781C7206D0002C474B /* SecondViewController.swift in Sources */,
 				AC68AF481C7204D9002C474B /* ViewController.swift in Sources */,
+				AC68AF7A1C7206DF002C474B /* ThirdViewController.swift in Sources */,
 				AC68AF461C7204D9002C474B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
